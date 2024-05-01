@@ -11,17 +11,17 @@
 	<div class="container">
 		<div class="board_box">
 			<div class="title">
-				제목부분 ${board.title }
+				${board.title }
 			</div>
 			<div class="content">
-			  내용 부분 ${board.content }
+			  ${board.content }
 			</div>
 			<div class="writer">
 			 writer ${board.writer }
 			</div>
 		</div>
 		<div class="text-center">
-			<a class="delete_btn" href="/delete">삭제하기</a>
+			<a class="delete_btn" href="/delete?bno=${board.bno}">삭제하기</a>
 			<a class="list_btn" href="/list">목록으로 돌아가기</a>
 		</div>
 	</div>

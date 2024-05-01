@@ -10,7 +10,7 @@
 <jsp:include page="layout/header.jsp"></jsp:include>
 	<div class="container">
 	<h1>게시물 작성</h1>
-	<form action="/regist" method="post">
+	<form action="reg" method="post">
 		<div class="form_box">
 			<label>
 				<p>제목</p>

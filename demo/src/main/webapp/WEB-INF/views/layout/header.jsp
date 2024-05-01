@@ -11,7 +11,7 @@
 	<header>
 		<div class="container">
 			<div class="header_name">Board</div>
-			<a class="home_btn" href="/main">home</a>
+			<a class="home_btn" href="/">home</a>
 		</div>
 	</header>
 </body>

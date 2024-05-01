@@ -20,7 +20,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<!-- 
+			
 				<c:forEach var="board" items="${list}" varStatus="status">
 				<tr>
 					<td>${status.count }</td>
@@ -29,17 +29,7 @@
 				</tr>
 				
 				</c:forEach>
-				 -->
-				 <tr>
-					<td>1</td>
-					<td>제목</td>
-					<td>내용</td>	
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>제목</td>
-					<td>내용</td>	
-				</tr>
+				 
 			</tbody>
 		</table>
 	</div>

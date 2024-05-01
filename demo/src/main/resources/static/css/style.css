@@ -3,11 +3,174 @@
 *{
 	margin:0 ;
 	padding: 0;
+	box-sizing:border-box;
+}
+a{
+	color:#333;
+	text-decoration:none;
 }
 .container{
 	width:1000px;
 	margin:0 auto;
 }
-h1{
-	color:red;
+.margin-auto{
+	margin:0 auto;
 }
+
+h1{
+	color:navy;
+	text-align:center;
+	margin: 20px 0;
+}
+
+.text-center{
+	text-align:center;
+}
+/* header */
+header{
+	background-color:#f7f7f7;
+	padding: 10px 0;
+}
+header .header_name{
+	color:#666;
+}
+header .container{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .home_btn{
+	display:inline-block;
+	width:80px;
+	padding:7px;
+	border-radius:3px;
+	background-color:navy;
+	text-align:center;
+	color:white;
+}
+
+/* main */
+.menu_btn{
+	display:inline-block;
+	width:120px;
+	padding:7px;
+	border-radius:3px;
+	background-color:navy;
+	text-align:center;
+	color:white;
+}
+
+/* regForm */
+.form_box{
+	width:600px;
+	margin: 0 auto;
+	padding:40px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+
+.form_box label{
+	display:block;
+	margin-bottom:20px;
+}
+
+.form_box label p{
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+.form_box label input{
+	width:100%;
+	padding: 7px;
+	border-radius:3px;
+	border:1px solid #ccc;
+}
+
+.form_box label textarea{
+	width:100%;
+	padding: 7px;
+	border-radius:3px;
+	border:1px solid #ccc;
+}
+
+.form_box .reg_btn{
+	width:100%;
+	padding:7px;
+	color: white;
+	background-color:navy;
+	border:none;
+	border-radius:3px;
+}
+
+/* list */
+.list_table{
+	width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.list_table th, td{
+	border: 1px solid #ccc;
+	padding: 7px;
+}
+
+.list_table td{
+	text-align:center;
+}
+.list_table thead tr{
+	background-color:navy;
+	color:white;
+	border:1px solid #fff;
+}
+.list_table tbody tr:hover{
+	background-color:#f7f7f7;
+	cursor:ponter;
+}
+
+
+/* detail */
+.board_box{
+	width:600px;
+	margin: 10px auto;
+	padding:40px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+
+.board_box .title{
+	width:100%;
+	padding: 15px 0;
+	font-weight:bold;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+.board_box .content{
+	width:100%;
+	padding: 15px 0;
+	border-bottom:1px solid #ccc;
+}
+
+.board_box .writer{
+	width:100%;
+	font-size:14px;
+	color:#666;
+	text-align:right;
+	padding-top: 15px;
+}
+
+.delete_btn, .list_btn{
+	display:inline-block;
+	padding:7px;
+	border-radius:3px;
+	background-color:navy;
+	text-align:center;
+	color:white;
+}
+
+
+
+
+
+

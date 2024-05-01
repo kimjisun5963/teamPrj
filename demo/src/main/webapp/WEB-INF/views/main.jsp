@@ -4,10 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>게시판</title>
 <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-	<h1>Index Page</h1>
+
+
+	<h1>게시판</h1>
+
 </body>
 </html>
